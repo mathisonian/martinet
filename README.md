@@ -2,9 +2,9 @@
 
 Distributed task management.
 
-Martinet is a database-backed, zeroMQ-based distributed task management system. It is persistant with respect to future and recurring tasks, so if your system goes down, those tasks will be unaffected. Martinet can use any [sequelize.js](github.com/sequelize/sequelize) compatible database as it's backing database (SQLite is used by default).
+Martinet is a database-backed, zeroMQ-based distributed task management system. It is persistent with respect to future and recurring tasks, so if your system goes down, those tasks will be unaffected. Martinet can use any [sequelize.js](github.com/sequelize/sequelize) compatible database as its backing database (SQLite is used by default).
 
-Martinet uses a push-pull messaging pattern to ensure efficiency when used in a distrubuted environment.
+Martinet uses a push-pull messaging pattern to ensure efficiency when used in a distributed environment.
 
 ## Installation
 
@@ -108,8 +108,8 @@ var worker = new MartinetWorker(WORKER_PORT, {
 worker.on('task_name', function(taskId, data, callback) {
     // do a thing.
     
-    // if its successfull, callback(),
-    // if theres an error, callback(err)
+    // if it's successful, callback(),
+    // if there's an error, callback(err)
 
 });
 
