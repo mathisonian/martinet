@@ -1,7 +1,7 @@
 {
   "name": "martinet",
   "description": "Distributed job queue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Matthew Conlen",
     "email": "mc@mathisonian.com"
@@ -10,7 +10,7 @@
   "engines": {
     "node": "0.10.x",
     "npm": ">= 1.2.x"
-  },  
+  },
   "licenses": [
     {
       "type": "MIT"
