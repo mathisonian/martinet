@@ -10,7 +10,12 @@
   "engines": {
     "node": "0.10.x",
     "npm": ">= 1.2.x"
-  },
+  },  
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
   "scripts": {
     "start": "./node_modules/.bin/nodemon index.js",
     "test": "make test"
