@@ -1,7 +1,7 @@
 {
   "name": "martinet",
   "description": "Distributed job queue",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": {
     "name": "Matthew Conlen",
     "email": "mc@mathisonian.com"
