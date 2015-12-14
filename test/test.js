@@ -1,7 +1,7 @@
 
 var expect = require('expect.js');
 
-var Martinet = require('martinet');
+var Martinet = require('..');
 var Worker = Martinet.Worker;
 var _ = require('lodash');
 
@@ -9,7 +9,7 @@ var _ = require('lodash');
 describe('martinet tests', function() {
 
     var martinet, worker;
-    var WORKER_PORT = 8010;    
+    var WORKER_PORT = 8010;
 
     it('should create a new Martinet object', function(done) {
         martinet = new Martinet();
@@ -17,7 +17,7 @@ describe('martinet tests', function() {
         done();
     });
 
-    
+
     it('should create a new Worker object', function(done) {
         worker = new Worker(WORKER_PORT);
         expect(worker).to.be.a(Worker);
